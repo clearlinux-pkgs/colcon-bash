@@ -1,5 +1,5 @@
 PKG_NAME := colcon-bash
-URL = https://files.pythonhosted.org/packages/68/87/8d2c2442fe5aec0af3aff168335ad38ed3546bbd247c1d33cd0c5375eebf/colcon-bash-0.3.2.tar.gz
+URL = https://files.pythonhosted.org/packages/5c/c1/df000be6d7d3dd4e7f53065240284a27bb22834c40e0422e4810cebb93b4/colcon-bash-0.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
