@@ -4,7 +4,7 @@
 #
 Name     : colcon-bash
 Version  : 0.4.2
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/c3/7c/7ab5345c9aa64d91bdc09e69bc3f90678eb08a0ba8c512ca1972927d8ee6/colcon-bash-0.4.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/7c/7ab5345c9aa64d91bdc09e69bc3f90678eb08a0ba8c512ca1972927d8ee6/colcon-bash-0.4.2.tar.gz
 Summary  : Extension for colcon to provide Bash scripts.
@@ -19,6 +19,7 @@ BuildRequires : colcon-core
 %description
 colcon-bash
 ===========
+
 An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `Bash <https://www.gnu.org/software/bash/>`_ scripts.
 
 %package python
@@ -34,6 +35,7 @@ python components for the colcon-bash package.
 Summary: python3 components for the colcon-bash package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-bash)
 
 %description python3
 python3 components for the colcon-bash package.
@@ -48,7 +50,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581185233
+export SOURCE_DATE_EPOCH=1582908663
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
