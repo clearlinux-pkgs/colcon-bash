@@ -4,7 +4,7 @@
 #
 Name     : colcon-bash
 Version  : 0.4.2
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/c3/7c/7ab5345c9aa64d91bdc09e69bc3f90678eb08a0ba8c512ca1972927d8ee6/colcon-bash-0.4.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/7c/7ab5345c9aa64d91bdc09e69bc3f90678eb08a0ba8c512ca1972927d8ee6/colcon-bash-0.4.2.tar.gz
 Summary  : Extension for colcon to provide Bash scripts.
